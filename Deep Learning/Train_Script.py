@@ -8,7 +8,7 @@ from keras.callbacks import CSVLogger
 from keras.callbacks import TensorBoard
 from keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
 from  sklearn.metrics import confusion_matrix
-import datetime
+
 import time
 from tqdm.keras import TqdmCallback
 
